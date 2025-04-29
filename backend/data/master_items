@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Zahnbürste",
+      "kategorien": ["Camping", "Ferienhaus"],
+      "verbrauchbar": true,
+      "verbrauch_pro_tag": 1
+    },
+    {
+      "id": 2,
+      "name": "Handtuch",
+      "kategorien": ["Ferienhaus", "Camping"],
+      "verbrauchbar": false,
+      "verbrauch_pro_tag": 0
+    }
+  ]
+  
