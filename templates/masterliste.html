@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Masterliste verwalten</title>
+</head>
+<body>
+    <h1>Masterliste verwalten</h1>
+
+    <!-- Neues Item hinzufügen -->
+    <h2>Neues Item</h2>
+    <form method="post">
+        <input type="hidden" name="action" value="add">
+        <label>Name: <input type="text" name="name" required></label><br>
+
+        <label>Kategorien:</label><br>
+        <input type="checkbox" name="kategorien" value="Camping"> Camping
+        <input type="checkbox" name="kategorien" value="Ferienhaus"> Ferienhaus
+        <input type="checkbox" name="kategorien" value="Eltern"> Eltern<br>
+
+        <label>Item-Kategorie:</label>
+        <select name="item_kategorie" required>
+            {% for kat in item_kategorien %}
+                <option value="{{ kat }}">{{ kat }}</option>
+            {% endfor %}
+        </select><br>
+
+        <label><input type="checkbox" name="verbrauchbar"> Verbrauchbar</label><br>
+        <label>Anzahl pro Tag: <input type="number" name="anzahl_pro_tag" min="0"></label><br>
+
+        <button type="submit">Hinzufügen</button>
+    </form>
+
+    <hr>
+
+    <!-- Bestehende Items bearbeiten -->
+    <h2>Bestehende Items</h2>
+    {% for item in master %}
+    <form method="post" style="margin-bottom: 20px;">
+        <input type="hidden" name="action" value="edit">
+        <input type="hidden" name="index" value="{{ loop.index0 }}">
+
+        <label>Name:
+            <input type="text" name="name" value="{{ item.name }}" required>
+        </label><br>
+
+        <label>Kategorien:</label><br>
+        <input type="checkbox" name="kategorien" value="Camping" {% if 'Camping' in item.kategorien %}checked{% endif %}> Camping
+        <input type="checkbox" name="kategorien" value="Ferienhaus" {% if 'Ferienhaus' in item.kategorien %}checked{% endif %}> Ferienhaus
+        <input type="checkbox" name="kategorien" value="Eltern" {% if 'Eltern' in item.kategorien %}checked{% endif %}> Eltern<br>
+
+        <label>Item-Kategorie:</label>
+        <select name="item_kategorie" required>
+            {% for kat in item_kategorien %}
+                <option value="{{ kat }}" {% if kat == item.item_kategorie %}selected{% endif %}>{{ kat }}</option>
+            {% endfor %}
+        </select><br>
+
+        <label><input type="checkbox" name="verbrauchbar" {% if item.verbrauchbar %}checked{% endif %}> Verbrauchbar</label><br>
+
+        <label>Anzahl pro Tag:
+            <input type="number" name="anzahl_pro_tag" min="0" value="{{ item.anzahl_pro_tag }}">
+        </label><br>
+
+        <button type="submit">Speichern</button>
+    </form>
+
+    <!-- Löschformular separat -->
+    <form method="post" style="display:inline;">
+        <input type="hidden" name="action" value="delete">
+        <input type="hidden" name="index" value="{{ loop.index0 }}">
+        <button type="submit">Löschen</button>
+    </form>
+
+    <hr>
+    {% endfor %}
+
+    <a href="{{ url_for('index') }}">Zurück zur Startseite</a>
+</body>
+</html>

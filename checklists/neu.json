@@ -1,0 +1,30 @@
+{
+  "titel": "neu",
+  "kategorie": "Ferienhaus",
+  "tage": 6,
+  "items": [
+    {
+      "name": "ZahnbÃ¼rste",
+      "checked": false,
+      "item_kategorie": "Bad"
+    },
+    {
+      "name": "Socken",
+      "checked": false,
+      "item_kategorie": "Klamotten",
+      "anzahl": 6
+    },
+    {
+      "name": "Unterhosen",
+      "checked": false,
+      "item_kategorie": "Klamotten",
+      "anzahl": 6
+    },
+    {
+      "name": "Drohne",
+      "checked": false,
+      "item_kategorie": "Technik"
+    }
+  ],
+  "erstellt": "2025-05-05T17:41:08.544520"
+}

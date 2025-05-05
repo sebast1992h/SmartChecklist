@@ -1,0 +1,36 @@
+{
+  "titel": "test",
+  "kategorie": "Camping",
+  "tage": 7,
+  "items": [
+    {
+      "name": "ZahnbÃƒÂ¼rste",
+      "checked": false,
+      "item_kategorie": "Bad"
+    },
+    {
+      "name": "Wasserflasche",
+      "checked": true,
+      "item_kategorie": "Lebensmittel",
+      "anzahl": 14
+    },
+    {
+      "name": "Socken",
+      "checked": true,
+      "item_kategorie": "Klamotten",
+      "anzahl": 7
+    },
+    {
+      "name": "Unterhosen",
+      "checked": true,
+      "item_kategorie": "Klamotten",
+      "anzahl": 7
+    },
+    {
+      "name": "Drohne",
+      "checked": true,
+      "item_kategorie": "Technik"
+    }
+  ],
+  "erstellt": "2025-05-05T13:19:49.013441"
+}
