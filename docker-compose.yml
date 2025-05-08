@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: smartcjecklist
+    container_name: smartchecklist
     ports:
       - "5000:5000"
     restart: unless-stopped
