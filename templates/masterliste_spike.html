@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Masterliste verwalten</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            margin-top: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 6px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .checkbox-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 6px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #c0392b;
+        }
+
+        .form-section {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 600px) {
+            table, th, td {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Masterliste verwalten</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Kategorien</th>
+                <th>Item-Kategorie</th>
+                <th>Verbrauchbar</th>
+                <th>Anzahl pro Tag</th>
+                <th>Aktion</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                <td>
+                    <input type="text" value="{{ item.name }}"
+                        data-index="{{ loop.index0 }}" data-field="name" class="auto-save">
+                </td>
+                <td>
+                    <select multiple data-index="{{ loop.index0 }}" data-field="kategorien" class="auto-save">
+                        {% for kat in categories %}
+                        <option value="{{ kat }}" {% if kat in item.kategorien %}selected{% endif %}>{{ kat }}</option>
+                        {% endfor %}
+                    </select>
+                </td>
+                <td>
+                    <select data-index="{{ loop.index0 }}" data-field="item_kategorie" class="auto-save">
+                        {% for k in item_kategorien %}
+                        <option value="{{ k }}" {% if k == item.item_kategorie %}selected{% endif %}>{{ k }}</option>
+                        {% endfor %}
+                    </select>
+                </td>
+                <td class="checkbox-center">
+                    <input type="checkbox" {% if item.verbrauchbar %}checked{% endif %}
+                        data-index="{{ loop.index0 }}" data-field="verbrauchbar" class="auto-save">
+                </td>
+                <td>
+                    <input type="number" min="0" value="{{ item.anzahl_pro_tag }}"
+                        data-index="{{ loop.index0 }}" data-field="anzahl_pro_tag" class="auto-save">
+                </td>
+                <td>
+                    <form method="post" style="display:inline;">
+                        <input type="hidden" name="index" value="{{ loop.index0 }}">
+                        <input type="hidden" name="action" value="delete">
+                        <button type="submit">Löschen</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div class="form-section">
+        <h2>Neues Item hinzufügen</h2>
+        <form method="post">
+            <input type="hidden" name="action" value="add">
+
+            <label>Name:
+                <input type="text" name="name" required>
+            </label>
+
+            <label>Kategorien (mehrfach):
+                <select name="kategorien" multiple>
+                    {% for kat in categories %}
+                    <option value="{{ kat }}">{{ kat }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+
+            <label>Item-Kategorie:
+                <select name="item_kategorie">
+                    {% for k in item_kategorien %}
+                    <option value="{{ k }}">{{ k }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+
+            <label>
+                <input type="checkbox" name="verbrauchbar" id="verbrauchbar" onchange="toggleAnzahlInput()">
+                Verbrauchbar
+            </label>
+
+            <div id="anzahlDiv" style="display: none;">
+                <label>Anzahl pro Tag:
+                    <input type="number" name="anzahl_pro_tag" min="0">
+                </label>
+            </div>
+
+            <button type="submit">Hinzufügen</button>
+        </form>
+    </div>
+
+    <br>
+    <a href="{{ url_for('index') }}">Zurück zur Startseite</a>
+
+    <script>
+        function toggleAnzahlInput() {
+            const cb = document.getElementById('verbrauchbar');
+            const div = document.getElementById('anzahlDiv');
+            div.style.display = cb.checked ? 'block' : 'none';
+        }
+
+        document.querySelectorAll('.auto-save').forEach(el => {
+            el.addEventListener('change', () => {
+                const index = el.dataset.index;
+                const field = el.dataset.field;
+                let value;
+
+                if (el.type === 'checkbox') {
+                    value = el.checked;
+                } else if (el.multiple) {
+                    value = Array.from(el.selectedOptions).map(o => o.value);
+                } else {
+                    value = el.value;
+                }
+
+                fetch('/update_item_field', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        index,
+                        field,
+                        value
+                    })
+                }).then(res => {
+                    if (!res.ok) {
+                        alert('Fehler beim automatischen Speichern!');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
