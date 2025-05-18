@@ -1,0 +1,2258 @@
+[
+  {
+    "name": "Zahnbürste",
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ],
+    "item_kategorie": "Bad",
+    "verbrauchbar": false
+  },
+  {
+    "name": "Wasserflasche",
+    "kategorien": [
+      "Camping"
+    ],
+    "item_kategorie": "Lebensmittel",
+    "verbrauchbar": true,
+    "anzahl_pro_tag": 2
+  },
+  {
+    "name": "Socken",
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ],
+    "item_kategorie": "Klamotten",
+    "verbrauchbar": true,
+    "anzahl_pro_tag": 1
+  },
+  {
+    "name": "Unterhosen",
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ],
+    "item_kategorie": "Klamotten",
+    "verbrauchbar": true,
+    "anzahl_pro_tag": 1
+  },
+  {
+    "name": "Drohne",
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ],
+    "item_kategorie": "Technik",
+    "verbrauchbar": false,
+    "anzahl_pro_tag": 0
+  },
+  {
+    "name": "Kamera",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Technik",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Medikamente Kinder",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Apotheke",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Medikamente Eltern",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Apotheke",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Thermometer",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Apotheke",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Strandmuschel",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Ausflug",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Picknickdecke",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Ausflug",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Bollerwagen",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Ausflug",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Zahnbürste/Mundpflgeprodukte",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Bad",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Zelt",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Campingsachen",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Stühle (3 Stück)",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Campingsachen",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Tisch",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Campingsachen",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Kleiner Tisch",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Campingsachen",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Küchenschrank",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Campingsachen",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Matratze",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Campingsachen",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Luftmatratze Hanna",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Sonstiges",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Kühlbox / Kühlschrank",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Küche",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Luftpumpe Zelt",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Campingsachen",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Bettdecke + Kopfkissen",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Sonstiges",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Isomatten",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Campingsachen",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Pavillion",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Campingsachen",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Tarp",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Campingsachen",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Personalausweise",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Dokumente",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Reiseunterlagen",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Dokumente",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Kochfeld",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Küche",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Grill",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Küche",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Küchenbox 1",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Küche",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Gasflasche",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Küche",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Wasserkanister",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Küche",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Gewürze",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Lebensmittel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Iphone und Ladegerät",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Technik",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "AppleWatch und Ladegerät",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Technik",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Tablet und Ladegerät",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Technik",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Kaneraequipment + Stativ",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Technik",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Wasser abstellen",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Zuhause",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Nachbarn informieren",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Zuhause",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Heizung aus bzw. auf Warmwasser Zeitplan 2",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Zuhause",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Besen + Handfeger/Schaufel",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Campingsachen",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Bosch sauger + akku",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Technik",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Bodenplane",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Campingsachen",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Omnia",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Küche",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  },
+  {
+    "name": "Arbeitslaptop + Ladegerät (bei bedarf)",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Technik",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Unterhose",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Papa",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "anzahl_pro_tag": 1
+  },
+  {
+    "name": "Socken",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Papa",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "anzahl_pro_tag": 1
+  },
+  {
+    "name": "T-Shirt",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Papa",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "anzahl_pro_tag": 1
+  },
+  {
+    "name": "Jogginghose",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Papa",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Badehose",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Papa",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Pullover",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Papa",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Lange Hose",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Papa",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Mütze",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Papa",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Handschuhe",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Papa",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Sporthose",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Papa",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Sport / Wanderschuhe",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Papa",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Töpfchen",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Trage",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Wetbag",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Windel Waschmittel",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Spielzeug (drinnen/draußen)",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Geschirr",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Lätzchen",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Technik",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Nachtwindel",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "anzahl_pro_tag": 1
+  },
+  {
+    "name": "Waschlappen",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "anzahl_pro_tag": 10
+  },
+  {
+    "name": "Kuscheldecke",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Wollanzug",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Schneeanzug",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Mützen",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Windeln",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "anzahl_pro_tag": 5
+  },
+  {
+    "name": "Booster",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "anzahl_pro_tag": 5
+  },
+  {
+    "name": "Windelvlies",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "anzahl_pro_tag": 5
+  },
+  {
+    "name": "Stilllicht",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Bücher",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Schwimmwindel",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Sport / Wanderschuhe",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Regenjacke",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Regenjacke",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Papa",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Badelatschen",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Badelatschen",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Papa",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Mütze",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Handschuhe",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Schal",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Bikini",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Oberteil",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "anzahl_pro_tag": 1
+  },
+  {
+    "name": "Dessous",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Unterhose",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "anzahl_pro_tag": 1
+  },
+  {
+    "name": "Socken",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "anzahl_pro_tag": 1
+  },
+  {
+    "name": "BH / Still BH",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Lange Hose",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Dicker Pulli",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Klamotten Mama",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Wärmflasche",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Bad",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Zahnbürsten + Ladegeräte",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Bad",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Zahnputztabletten",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Bad",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "anzahl_pro_tag": 4
+  },
+  {
+    "name": "Zahnpasta Kind",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Bad",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Deo",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Bad",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Rasierer",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Bad",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Duschseife / Gel",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Bad",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Große Handtücher",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Bad",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Haare Handtuch",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Bad",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Hände Handtuch",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Bad",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Vitamine",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Sonstiges",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Leine",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Mantel",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Öl",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Futter (Tagesration)",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ],
+    "anzahl_pro_tag": 1
+  },
+  {
+    "name": "Bürste",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Leckerlies",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Erste Hilfe Tasche (mit Zeckenzange)",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Ersatzgeschirr",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Bademantel",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Decke",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Pfotentuch",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Maulkorb",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Schleppleinen",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Näpfe",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Trinkflasche",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Abel",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern"
+    ]
+  },
+  {
+    "name": "Ladegerät Toniebox",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Toniebox",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Babyphone + Ladegerät",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Technik",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Airpods",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Technik",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Bluetoothbox + ladegerät",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Technik",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Multitool",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Technik",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Waschmittel",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Wäscheklammern",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Streichhölzer/Feuerzeug",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Handseife",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Taschentücher",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Wischlappen/Abwaschlappen",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Müllbeutel",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Alufolie/Frischhaltefolie",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Backpapier",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Gefrierbeutel",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Geschirrtücher",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Geschirrspültabs",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Kaffee-/Teefilter",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Reinigungsschwamm",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Reiniger",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Toilettenpapier",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Küchenrolle",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Haushaltsgegenstände",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Gesellschaftsspiele",
+    "categories": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ],
+    "item_kategorie": "Sonstiges",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ]
+  },
+  {
+    "name": "Trinkflasche",
+    "item_kategorie": "Hanna",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus",
+      "Eltern",
+      "Flugreise"
+    ]
+  },
+  {
+    "name": "Messer zum Schnitzen",
+    "item_kategorie": "Campingsachen",
+    "verbrauchbar": false,
+    "kategorien": [
+      "Camping"
+    ]
+  }
+]

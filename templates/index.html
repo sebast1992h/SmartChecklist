@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SmartChecklist – Startseite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        main {
+            padding: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #333;
+            margin-top: 2rem;
+        }
+
+        .checklist {
+            background: white;
+            margin: 0.5rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .checklist div {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .checklist form {
+            margin: 0;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.4rem 0.8rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 0.3rem;
+        }
+
+        .button.delete {
+            background-color: #e53935;
+        }
+
+        .button.secondary {
+            background-color: #2196F3;
+        }
+
+        form.create-form {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        nav {
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 0.3rem;
+            padding: 0.6rem 1rem;
+            background-color: #ddd;
+            text-decoration: none;
+            border-radius: 5px;
+            color: #333;
+        }
+
+        nav a:hover {
+            background-color: #bbb;
+        }
+
+        @media (max-width: 600px) {
+            .checklist {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .checklist div,
+            .checklist form {
+                width: 100%;
+                margin-bottom: 0.5rem;
+            }
+
+            .button {
+                width: 100%;
+                margin: 0.2rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SmartChecklist</h1>
+        <p>Dein flexibles Packlisten-Tool</p>
+    </header>
+
+    <main>
+        <h2>Checklisten</h2>
+        {% for name in checklisten %}
+            <div class="checklist">
+                <div>{{ name }}</div>
+                <div>
+                    <form method="get" action="{{ url_for('view_checklist', name=name) }}">
+                        <button class="button">Öffnen</button>
+                    </form>
+                    <!--<form method="post" action="{{ url_for('delete_checkliste', name=name) }}">
+                        <button class="button delete">Löschen</button>
+                    </form>-->
+                </div>
+            </div>
+        {% endfor %}
+
+        <h2>Neue Checkliste erstellen</h2>
+        <form method="post" class="create-form">
+            <label for="titel">Titel:</label>
+            <input type="text" name="titel" id="titel" required>
+
+            <label for="kategorie">Kategorie:</label>
+            <select name="kategorie" id="kategorie" required>
+                {% for cat in categories %}
+                    <option value="{{ cat }}">{{ cat }}</option>
+                {% endfor %}
+            </select>
+
+            <label for="tage">Anzahl der Tage:</label>
+            <input type="number" name="tage" id="tage" min="1" required value="1">
+
+            <button class="button" type="submit">Erstellen</button>
+        </form>
+
+        <nav>
+            <a href="{{ url_for('archiv') }}">📁 Archiv</a>
+            <a href="{{ url_for('kategorien') }}">📂 Urlaubskategorien</a>
+            <a href="{{ url_for('masterliste') }}">📝 Masterliste</a>
+            <a href="{{ url_for('itemkategorien') }}">🏷️ Item-Kategorien</a>
+        </nav>
+    </main>
+</body>
+</html>

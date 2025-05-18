@@ -1,0 +1,18 @@
+<h1>Kategorien bearbeiten</h1>
+<form method="post">
+  Neue Kategorie: <input name="neue_kategorie">
+  <button type="submit">Hinzufügen</button>
+</form>
+
+<ul>
+  {% for cat in categories %}
+    <li>{{ cat }}
+      <form method="post" style="display:inline;">
+        <input type="hidden" name="delete" value="{{ cat }}">
+        <button type="submit">Löschen</button>
+      </form>
+    </li>
+  {% endfor %}
+</ul>
+
+<a href="/">Zurück</a>

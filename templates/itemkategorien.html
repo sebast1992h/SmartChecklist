@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <title>Item-Kategorien verwalten</title>
+</head>
+<body>
+    <h1>Item-Kategorien verwalten</h1>
+
+    <h2>Vorhandene Kategorien</h2>
+    <ul>
+        {% for kat in kategorien %}
+            <li>
+                {{ kat }}
+                <form method="post" style="display:inline;">
+                    <input type="hidden" name="name" value="{{ kat }}">
+                    <button type="submit" name="action" value="delete">Löschen</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h2>Neue Kategorie hinzufügen</h2>
+    <form method="post">
+        <input type="text" name="name" placeholder="Neue Kategorie" required>
+        <button type="submit" name="action" value="add">Hinzufügen</button>
+    </form>
+
+    <br>
+    <a href="{{ url_for('index') }}">Zurück zur Startseite</a>
+</body>
+</html>

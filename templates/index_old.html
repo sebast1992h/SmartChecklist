@@ -1,0 +1,25 @@
+<h1>Urlaubs-Checklisten</h1>
+<form method="post">
+  Titel: <input name="titel" required><br>
+  Kategorie:
+  <select name="kategorie">
+    {% for cat in categories %}
+      <option>{{ cat }}</option>
+    {% endfor %}
+  </select><br>
+  Tage: <input type="number" name="tage" value="1" min="1"><br>
+  <button type="submit">Neue Checkliste erstellen</button>
+</form>
+
+<h2>Bestehende Checklisten</h2>
+<ul>
+  {% for liste in checklisten %}
+    <li><a href="{{ url_for('view_checklist', name=liste) }}">{{ liste.replace('_', ' ') }}</a></li>
+  {% endfor %}
+</ul>
+
+<h2>Verwaltung</h2>
+<a href="{{ url_for('kategorien') }}"><button>Kategorien bearbeiten</button></a>
+<a href="{{ url_for('masterliste') }}"><button>Masterliste bearbeiten</button></a>
+<a href="{{ url_for('archiv') }}"><button>Archivierte Checklisten</button></a>
+<a href="{{ url_for('itemkategorien') }}"><button>Item Kategorien</button></a>

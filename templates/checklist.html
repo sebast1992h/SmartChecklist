@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="de"></html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkliste: {{ name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Checkliste: {{ name }}</h1>
+    <a href="{{ url_for('index') }}" class="button-link">Zurück zur Startseite</a>
+
+    <form method="post">
+        {% for kategorie, items in grouped_items.items() %}
+            <h2>{{ kategorie }}</h2>
+            <ul>
+                {% for item in items %}
+                    <li>
+                        <label>
+                            <input  type="checkbox" 
+                                    class="item-checkbox"
+                                    data-name="{{ item.name }}"
+                                    {% if item.checked %}checked{% endif %}>
+                            {{ item.name }}
+                            {% if item.anzahl is defined %} ({{ item.anzahl }} Stück){% endif %}
+                        </label>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+        <!--<button type="submit" name="update_checklist" value="1">Änderungen speichern</button>-->
+    </form>
+    <a href="{{ url_for('index') }}" class="button-link">Zurück zur Startseite</a>
+
+    <form method="post" style="margin-top: 20px;">
+        <button type="submit" name="archivieren" value="1">Checkliste archivieren</button>
+    </form>
+
+    <div class="form-section">
+        <h2>Neues Item hinzufügen</h2>
+        <form method="post">
+            <input type="hidden" name="add_item" value="1">
+            <label>Name:
+                <input type="text" name="name" required>
+            </label>
+            <label>Item-Kategorie:
+                <select name="item_kategorie" required>
+                    {% for kategorie in itemkategorien %}
+                        <option value="{{ kategorie }}">{{ kategorie }}</option>
+                    {% endfor %}
+            </label>
+    </select>
+            </label>
+            <label class="checkbox-label">
+                <input type="checkbox" name="verbrauchbar" id="verbrauchbar" onchange="toggleAnzahlInput()">
+                Verbrauchbar
+            </label>
+            <div id="anzahlDiv" style="display: none;">
+                <label>Anzahl pro Tag:
+                    <input type="number" name="anzahl_pro_tag" min="0">
+                </label>
+            </div>
+            <button type="submit">Hinzufügen</button>
+        </form>
+    </div>
+
+
+
+    <br>
+    
+
+    <script>
+        document.querySelectorAll('.item-checkbox').forEach(cb => {
+            cb.addEventListener('change', () => {
+                fetch("{{ url_for('toggle_check_item', name=name) }}", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        item_name: cb.dataset.name,
+                        checked: cb.checked
+                    })
+                }).then(response => {
+                    if (!response.ok) {
+                        alert("Fehler beim Speichern!");
+                    }
+                });
+            });
+        });
+
+        function toggleAnzahlInput() {
+            const cb = document.getElementById('verbrauchbar');
+            const div = document.getElementById('anzahlDiv');
+            div.style.display = cb.checked ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
