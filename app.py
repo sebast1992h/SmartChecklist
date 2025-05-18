@@ -73,6 +73,7 @@ def index():
         for item in master_list:
             if kategorie in item['kategorien']:
                 eintrag = {
+                    "uuid": item["uuid"],
                     "name": item["name"],
                     "checked": False,
                     "item_kategorie": item.get("item_kategorie", "Sonstiges")
@@ -252,6 +253,7 @@ def toggle_check_item(name):
 
     data = request.get_json()
     item_name = data.get("item_name")
+    item_id = data.get("uuid")
     checked = data.get("checked")
 
     with open(file_path, "r", encoding="utf-8") as f:
@@ -259,7 +261,7 @@ def toggle_check_item(name):
 
     # Zugriff auf checkliste["items"]
     for item in checkliste.get("items", []):
-        if item["name"] == item_name:
+        if item["uuid"] == item_id:
             item["checked"] = checked
             break
 

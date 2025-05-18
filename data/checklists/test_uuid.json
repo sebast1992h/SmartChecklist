@@ -1,0 +1,20 @@
+{
+  "titel": "test_uuid",
+  "kategorie": "Camping",
+  "tage": 1,
+  "items": [
+    {
+      "uuid": "f64a5fce-0eed-4c9c-8e4e-14beccdfe72b",
+      "name": "test",
+      "checked": false,
+      "item_kategorie": "Technik"
+    },
+    {
+      "uuid": "07336d5a-48c8-4e33-a785-1c04bd4fd3df",
+      "name": "test",
+      "checked": false,
+      "item_kategorie": "Haushaltsgegenstände"
+    }
+  ],
+  "erstellt": "2025-05-18T13:49:47.309913"
+}
