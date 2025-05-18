@@ -4,6 +4,7 @@ from datetime import datetime
 from pathlib import Path
 from collections import defaultdict
 from flask import current_app  # Wichtig für Konfiguration
+import uuid
 
 app = Flask(__name__)
 DATA_FOLDER = os.path.join(os.path.dirname(__file__), 'data')
@@ -193,9 +194,11 @@ def masterliste():
         item_kategorie = request.form["item_kategorie"]
         verbrauchbar = "verbrauchbar" in request.form
         anzahl_pro_tag = request.form.get("anzahl_pro_tag")
+
         
 
         neues_item = {
+            "uuid": str(uuid.uuid4()),
             "name": name,
             #"categories": categories,
             "item_kategorie": item_kategorie,
