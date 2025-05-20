@@ -127,6 +127,7 @@ def view_checklist(name):
             anzahl_pro_tag = int(request.form['anzahl_pro_tag']) if verbrauchbar and request.form.get('anzahl_pro_tag') else 0
 
             neues_item = {
+                "uuid": str(uuid.uuid4()),  # Hier wird die UUID erzeugt
                 "name": item_name,
                 "item_kategorie": item_kategorie,
                 "verbrauchbar": verbrauchbar,

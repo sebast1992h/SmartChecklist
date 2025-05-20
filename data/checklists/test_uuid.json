@@ -1,20 +1,43 @@
 {
   "titel": "test_uuid",
   "kategorie": "Camping",
-  "tage": 1,
+  "tage": 2,
   "items": [
     {
       "uuid": "f64a5fce-0eed-4c9c-8e4e-14beccdfe72b",
       "name": "test",
-      "checked": false,
+      "checked": true,
       "item_kategorie": "Technik"
     },
     {
       "uuid": "07336d5a-48c8-4e33-a785-1c04bd4fd3df",
       "name": "test",
-      "checked": false,
+      "checked": true,
       "item_kategorie": "Haushaltsgegenstände"
+    },
+    {
+      "uuid": "8867b0b7-51da-4015-a899-95e6f3862c35",
+      "name": "test_verbrauchbar",
+      "checked": true,
+      "item_kategorie": "Küche",
+      "anzahl": 6
+    },
+    {
+      "uuid": "fe3702e4-1c88-41df-abef-dd42ee7627f8",
+      "name": "neu123",
+      "item_kategorie": "Dokumente",
+      "verbrauchbar": false,
+      "anzahl_pro_tag": 0,
+      "checked": false
+    },
+    {
+      "uuid": "398eed39-74cb-4d5f-bb4d-805849e1c7ca",
+      "name": "neu123",
+      "item_kategorie": "Abel",
+      "verbrauchbar": false,
+      "anzahl_pro_tag": 0,
+      "checked": true
     }
   ],
-  "erstellt": "2025-05-18T13:49:47.309913"
+  "erstellt": "2025-05-18T14:37:37.831204"
 }

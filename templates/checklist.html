@@ -20,6 +20,7 @@
                             <input  type="checkbox" 
                                     class="item-checkbox"
                                     data-name="{{ item.name }}"
+                                    data-uuid="{{ item.uuid}}"
                                     {% if item.checked %}checked{% endif %}>
                             {{ item.name }}
                             {% if item.anzahl is defined %} ({{ item.anzahl }} Stück){% endif %}
@@ -79,6 +80,7 @@
                     },
                     body: JSON.stringify({
                         item_name: cb.dataset.name,
+                        uuid: cb.dataset.uuid,
                         checked: cb.checked
                     })
                 }).then(response => {

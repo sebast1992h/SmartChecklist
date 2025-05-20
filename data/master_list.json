@@ -16,5 +16,16 @@
     "kategorien": [
       "Camping"
     ]
+  },
+  {
+    "uuid": "8867b0b7-51da-4015-a899-95e6f3862c35",
+    "name": "test_verbrauchbar",
+    "item_kategorie": "Küche",
+    "verbrauchbar": true,
+    "kategorien": [
+      "Camping",
+      "Ferienhaus"
+    ],
+    "anzahl_pro_tag": 3
   }
 ]
