@@ -4,6 +4,7 @@ from datetime import datetime
 from pathlib import Path
 from collections import defaultdict
 from flask import current_app  # Wichtig für Konfiguration
+import uuid
 
 app = Flask(__name__)
 DATA_FOLDER = os.path.join(os.path.dirname(__file__), 'data')
@@ -72,6 +73,7 @@ def index():
         for item in master_list:
             if kategorie in item['kategorien']:
                 eintrag = {
+                    "uuid": item["uuid"],
                     "name": item["name"],
                     "checked": False,
                     "item_kategorie": item.get("item_kategorie", "Sonstiges")
@@ -125,6 +127,7 @@ def view_checklist(name):
             anzahl_pro_tag = int(request.form['anzahl_pro_tag']) if verbrauchbar and request.form.get('anzahl_pro_tag') else 0
 
             neues_item = {
+                "uuid": str(uuid.uuid4()),  # Hier wird die UUID erzeugt
                 "name": item_name,
                 "item_kategorie": item_kategorie,
                 "verbrauchbar": verbrauchbar,
@@ -193,9 +196,11 @@ def masterliste():
         item_kategorie = request.form["item_kategorie"]
         verbrauchbar = "verbrauchbar" in request.form
         anzahl_pro_tag = request.form.get("anzahl_pro_tag")
+
         
 
         neues_item = {
+            "uuid": str(uuid.uuid4()),
             "name": name,
             #"categories": categories,
             "item_kategorie": item_kategorie,
@@ -249,6 +254,7 @@ def toggle_check_item(name):
 
     data = request.get_json()
     item_name = data.get("item_name")
+    item_id = data.get("uuid")
     checked = data.get("checked")
 
     with open(file_path, "r", encoding="utf-8") as f:
@@ -256,7 +262,7 @@ def toggle_check_item(name):
 
     # Zugriff auf checkliste["items"]
     for item in checkliste.get("items", []):
-        if item["name"] == item_name:
+        if item["uuid"] == item_id:
             item["checked"] = checked
             break
 
