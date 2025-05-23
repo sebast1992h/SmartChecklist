@@ -9,13 +9,17 @@
 <body>
     <h1>Checkliste: {{ name }}</h1>
     <a href="{{ url_for('index') }}" class="button-link">Zurück zur Startseite</a>
+    <label>
+        <input type="checkbox" id="toggle-completed" checked>
+        Abgehakte anzeigen
+    </label>
 
     <form method="post">
         {% for kategorie, items in grouped_items.items() %}
             <h2>{{ kategorie }}</h2>
             <ul>
                 {% for item in items %}
-                    <li>
+                    <li class="{% if item.checked %}completed{% endif %}">
                         <label>
                             <input  type="checkbox" 
                                     class="item-checkbox"
@@ -71,6 +75,17 @@
     
 
     <script>
+        const toggleCheckbox = document.getElementById('toggle-completed');
+
+        
+        document.getElementById('toggle-completed').addEventListener('change', function() {
+        const hideCompleted = !this.checked;
+        document.querySelectorAll('li.completed').forEach(li => {
+            li.classList.toggle('hidden', hideCompleted);
+            });
+        });
+                
+        
         document.querySelectorAll('.item-checkbox').forEach(cb => {
             cb.addEventListener('change', () => {
                 fetch("{{ url_for('toggle_check_item', name=name) }}", {
@@ -88,6 +103,16 @@
                         alert("Fehler beim Speichern!");
                     }
                 });
+
+                const li = cb.closest('li');
+                if (cb.checked) {
+                    li.classList.add('completed');
+                    if (!document.getElementById('toggle-completed').checked) {
+                        li.classList.add('hidden');
+                    }
+                } else {
+                    li.classList.remove('completed', 'hidden');
+                }
             });
         });
 
@@ -96,6 +121,8 @@
             const div = document.getElementById('anzahlDiv');
             div.style.display = cb.checked ? 'block' : 'none';
         }
+
+
     </script>
 </body>
 </html>
